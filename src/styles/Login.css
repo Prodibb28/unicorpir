@@ -1,0 +1,56 @@
+.login-container {
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+  }
+  
+  .form-container {
+    display: grid;
+    gap: 2rem;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 350px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .tittle-login {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    align-self: center;
+  }
+  
+  .input-text {
+    padding: 0.5rem;
+    font-size: 1rem;
+    height: 40px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 4px;
+    outline: none;
+    color: #333;
+  }
+  
+  .input-text:focus {
+    border-bottom: 2px solid #707070;
+  }
+
+  
+  .bttnForm {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: rgb(0, 136, 11);
+    font-weight:bolder;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 50px;
+  }
+
+  .bttnForm:active {
+    background-color: rgb(0, 136, 11);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  

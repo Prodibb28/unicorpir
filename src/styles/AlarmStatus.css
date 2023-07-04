@@ -1,0 +1,16 @@
+.alarm-status {
+    padding: 10px;
+    border-radius: 999px;
+    font-weight: bold;
+  }
+  
+  .activated {
+    background-color: rgb(0, 136, 11);
+    color: white;
+  }
+  
+  .deactivated {
+    background-color: rgb(129, 129, 129);
+    color: white;
+  }
+  
